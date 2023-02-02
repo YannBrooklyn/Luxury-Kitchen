@@ -1,0 +1,118 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        width:auto;
+        background-color:rgb(30, 30, 30);
+        color: white;
+        margin: 0;
+    }
+
+
+    /********************** Header ***********************/
+
+    header {
+        background-color: red;
+        
+        width: 100%;
+    }
+
+    .navheader {
+        
+        
+    }
+
+    .navico {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        
+        width: 5%;
+        
+    }
+
+    .navtitre {
+        font-size: 80%;
+        margin: 0;
+    }
+
+    /* ********************************* HOME ***********************************/
+    
+    
+    /*************************** Main ****************************/
+
+    .article1 {
+        position: relative;
+        j
+    }
+
+    .lesoffres {
+        border-radius: 5%;
+        
+        width: 60%;
+        margin: 0;
+    }
+
+    .article1bis {
+        text-align: center;
+        border-radius: 0 0 5% 5%;
+        position: absolute;
+        top: 68.5%;
+        left: 0;
+        background-color:rgba(0, 0, 0, 0.719);
+        width: 60%;
+        
+    }
+
+    .articlebutton {
+        background-color: red;
+        border: none;
+        font-size: 100%;
+        color: white;
+        width: 55%;
+        border-radius: 4%;
+    }
+
+
+    /****************** IDENTIFICATION  *****************/
+
+    .logindiv {
+        text-align: center;
+
+    }
+
+
+    .logintextbox {
+        background-color: rgb(30, 30, 30);
+        border-style: solid;
+        border-width: 1%;
+        
+    }
+
+    .buttonlogin {
+        background-color: red;
+        color: white;
+        border: none;
+        width: 40%;
+        border-radius: 4%;
+        
+    }
+
+    .logintitle {
+        text-align: center;
+        margin-top: 20%;
+        font-size: 50%;
+        margin-bottom: 5%;
+    }
+
+    
+
+    /************************* Footer ******************************/
+
+    footer {
+       background-color: rgb(18, 18, 18);
+    }
+
+}
