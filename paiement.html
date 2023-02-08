@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navheader">
+            
+            <h1 class="navtitre">LUXURY KITCHEN</h1>
+            <a href="burger.png"><img alt="Menu" class="navico" src="images/hamburger.png"></a>
+            <a href="panier.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+            <a href="profil.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+            
+        </div>
+    </header>
+
+    <main> 
+        <div class="divformulaire">
+            <h2 class="formulairemaintitre">Indiquez votre adresse d'expédition</h2>
+            <select type="country" name="Country" class="formulairecountry">
+                <option value="ignore" class="ignore">Pays</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <h4 class="formulairetitre">Nom complet</h4>
+            <input type="name" class="formulairetextbox">
+            <h4 class="formulairetitre">Numéro de téléphone</h4>
+            <input type="phone" class="formulairetextbox">
+            <h4 class="formulairetitre">Adresse</h4>
+            <input type="adresse" class="formulairetextbox">
+            <h4 class="formulairetitre">Code Postal</h4>
+            <input type="postal" class="formulairetextbox">
+            <h4 class="formulairetitre">Ville</h4>
+            <input type="city" class="formulairetextbox">
+            <input type="checkbox" class="formulairecheckbox">
+            <label for="formulairecheckbox">Faire de cette adresse mon adresse par défaut</label>
+            <figure></figure>
+            <input type="button" value="UTILISER CETTE ADRESSE" class="formulairebutton">
+
+            <!-- Separateur -->
+
+            <h4 class="formulaireback">RETOUR AU PANIER</h4>
+        </div>
+    </main>
+</body>
+</html>

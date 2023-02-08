@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxury Kitchen</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -14,10 +15,11 @@
         <div class="navheader">
             
             <h1 class="navtitre">LUXURY KITCHEN</h1>
-            <a href="burger.png"><img alt="Menu" class="navico" src="images/hamburger.png"></a>
-            <a href="panier.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
-            <a href="profil.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
-            
+            <div class="allnavico">
+                <a href="profil.html"><img alt="Profil" class="navico" src="images/profil.png"></a>
+                <a href="panier.html"><img alt="Panier" class="navico" src="images/panier.png"></a>
+                <a href="burger.png"><img alt="Menu" class="navico" src="images/hamburger.png"></a>
+            </div>
         </div>
     </header>
     <main>
@@ -31,10 +33,32 @@
 
     <!--------------- Offres du moment ------------------>
         
-        
-        <h3 class="titre1">Découvrez nos offres du moment !</h3>
 
-        <section class="offresdumoment">
+    <section class="offresdumoment">
+
+        <div class="itemdefile">
+            <h3 class="titre1">Découvrez nos offres du moment !</h3>
+
+            <!-- 1ERE OFFRE -->
+            <div class="item"><img alt="Soldes Poêles" class="lesoffres"    src="imgproduit/poêle/poele6.webp">
+                <div class="article1bis">
+                    <h3>SOLDES ! Poêles de cuisson</h3>
+                    <button class="articlebutton">J'en profite !</button>
+                </div>
+            </div>
+
+            <!-- 2EME OFFRE -->
+            <div class="item"><img alt="Soldes Poêles" class="lesoffres"    src="imgproduit/moules/moule2.webp"></div>
+
+            <!-- 3EME OFFRE -->
+            <div class="item"><img alt="SOLDES ! Ustensils et verreries" class="lesoffres" src="imgproduit/accessoire/ustensile.webp"></div>
+        </div>
+
+    </section>
+        
+        
+
+        <!-- <section class="offresdumoment">
 
             <article class="article1">
                 <img alt="Soldes Poêles" class="lesoffres" src="imgproduit/poêle/poele6.webp">
@@ -59,11 +83,33 @@
                     <button class="articlebutton">J'en profite !</button>
                 </div>
             </article>
-        </section>
+        </section> -->
 
         <!--------- A la Une  ------------->
 
 
+        <section class="offresdumoment">
+            <div class="itemdefile">
+                <h3 class="titre1">A la Une</h3>
+    
+                <!-- 1ERE OFFRE -->
+                <div class="item"><img alt="Soldes Poêles"class="lesoffres"    src="imgproduit/poêlepoele6.webp">
+                    <div class="article1bis">
+                        <h3>SOLDES ! Poêles de cuisson</h3>
+                        <button class="articlebutton">J'enprofite !</button>
+                    </div>
+                </div>
+    
+                <!-- 2EME OFFRE -->
+                <div class="item"><img alt="Soldes Poêles"class="lesoffres"    src="imgproduit/moulesmoule2.webp"></div>
+    
+                <!-- 3EME OFFRE -->
+                <div class="item"><img alt="SOLDES ! Ustensils etverreries" class="lesoffres" src="imgproduitaccessoire/ustensile.webp"></div>
+            </div>
+    
+        </section>
+
+        
         <section class="a-la-une">
             <article class="une1">
                 <img alt="Ensemble d'ustensiles de cuisine 8 pièces en Silicone" class="lesune" src="">
@@ -155,7 +201,7 @@
                 <div class="nouveau3bis">
                     <h3>Appareil à emballer sous vide blanc 37cm 150W</h3>
                     <input type="button" value="ajouter au panier" class="ajouterpanier">
-                    <h5 class="prix">58€99</h5>
+                    <h5 class="prix">58€9</h5>
                 </div>
             </article>
         </section>
@@ -165,24 +211,31 @@
 
 
     <footer>
-        <h4>DECOUVREZ L'APPLICATION</h4>
+        
+        <h4 class="titlefooter">DECOUVREZ L'APPLICATION</h4>
+        
         <div class="logoapp">
             <img alt="Luxury Kitchen App IOS" class="applogo" src="images/apple.png">
             <img alt="Luxury Kitchen App Android" class="applogo" src="images/googleplay.png">
         </div>
 
+        <h4 class="titlefooter">PAIEMENT SECURISE</h4>
+        
         <div class="paidsafe">
-            <h4>PAIEMENT SECURISE</h4>
+            
             <img alt="VISA" class="paidlogo" src="images/logos_visa.png">
             <img alt="Mastercard" class="paidlogo" src="images/logos_mastercard.png">
             <img alt="Paypal" class="paidlogo" src="images/logos_paypal.png">
         </div>
 
-        <div class="joinus">
-            <h4>REJOIGNEZ-NOUS</h4>
-            <img alt="Facebook" class="resologo" src="">
-            <img alt="Twitter" class="resologo" src="">
-            <img alt="Instagram" class="resologo" src="">
+
+        <h4 class="titlefooter">REJOIGNEZ-NOUS</h4>
+
+        <div class="join-us">
+            
+            <img alt="Facebook" class="resologo" src="images/facebooklogo.png">
+            <img alt="Twitter" class="resologo" src="images/twitterlogo.png">
+            <img alt="Instagram" class="resologo" src="images/instalogo.png">
         </div>
 
         <img alt="Remonter en haut" class="swipe" src="images/swipe.png">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
 @media only screen and (max-width: 600px) {
 
     body {
@@ -5,37 +7,41 @@
         background-color:rgb(30, 30, 30);
         color: white;
         margin: 0;
+        font-family: Montserrat;
     }
 
 
     /********************** Header ***********************/
 
     header {
-        background-color: red;
-        
-        width: 100%;
+        background: linear-gradient(#E02B1A 50%, #801212);
+        width: auto;
+        margin: 0;
     }
 
     .navheader {
-        
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 80px;
+        gap: 50%;
+        width: auto;
     }
 
     .navico {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
+        width: 20%;
+    }
 
+    .allnavico {
         
-        width: 5%;
+        
         
     }
 
     .navtitre {
         font-size: 80%;
         margin: 0;
+        width: 400%;
     }
 
     /* ********************************* HOME ***********************************/
@@ -45,7 +51,6 @@
 
     .article1 {
         position: relative;
-        j
     }
 
     .lesoffres {
@@ -75,6 +80,27 @@
         border-radius: 4%;
     }
 
+    
+
+    .itemdefile {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    
+    } 
+
+    .itemdefile-flexbox {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .item {
+        display: inline-block;
+        flex: 0 0 auto;
+        margin: 0;
+  
+  }
 
     /****************** IDENTIFICATION  *****************/
 
@@ -87,7 +113,9 @@
     .logintextbox {
         background-color: rgb(30, 30, 30);
         border-style: solid;
-        border-width: 1%;
+        border-width: 1px;
+        height: 35px;
+        width: 60%;
         
     }
 
@@ -96,7 +124,8 @@
         color: white;
         border: none;
         width: 40%;
-        border-radius: 4%;
+        border-radius: 7px;
+        height: 30px;
         
     }
 
@@ -105,14 +134,242 @@
         margin-top: 20%;
         font-size: 50%;
         margin-bottom: 5%;
+        
+        
+    }
+
+    .resobuttonlogin {
+        width: 70%;
+        text-align: center;
+        
+    }
+
+
+    .littletitlediv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .littletitle1 {
+        color:red;
+    }
+
+    /************************* Inscription ***********************/
+
+    .divregistrer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .textregistrer {        
+        background-color:rgb(30, 30, 30);
+        border-width: 1px;
+        border-style: solid;
+        height: 35px;
+        width: 70%;
+    }
+
+    .buttonregistrer {
+        background-color: red;
+        border:none;
+        width: 40%;
+        height: 30px;
+        color: white;
+        border-radius: 3px;
+    }
+
+    .titledivregistrer {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+    }
+
+    .titleregistrer3 {
+        color: red;
+    }
+
+    .divcheckbox {
+        text-align: center;
+        width: 90%;
     }
 
     
+
+    /************************ Panier Vide ******************************/
+    
+    .titlepaniervide1 {
+        text-align: left;
+    }
+
+    .divpaniervide {
+        text-align: center;
+    }
+
+    .imgpaniervide {
+        
+        width: 70%;
+    }
+
+    .paragraphepaniervide {
+        color:rgb(117, 117, 117)
+    }
+
+    
+
+    .buttonpaniervide {
+        background-color: #D9D9D9;
+        color: black;
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+    }
+
+     /************************ Panier ******************************/
+
+    .item1 {
+        
+        display: flex;
+        width:100%;
+        flex-direction: row;
+     }
+
+    .titreitem1 {
+        margin: 0;
+        font-size: 19px;
+    }
+
+    .panier1 {
+        width:auto;
+        height: auto;
+    }
+    .imgitem1 {
+        width: 50%;
+    }
+
+    .item1bis {
+
+    }
+
+    /************************* Paiement ****************************/
+
+    .divformulaire {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulairecountry {
+        background-color: rgb(30, 30, 30);
+        border-color: rgb(117, 117, 117);
+        border-style: solid;
+        height: 30px;
+        width: 60%;
+        color: rgb(117, 117, 117);
+        text-align: center;
+    }
+
+    .formulairecheckbox {
+        text-align: center;
+    }
+
+    .formulairetextbox {
+        background-color: rgb(30, 30, 30);
+        border-color: rgb(117, 117, 117);
+        border-style: solid;
+        height: 30px;
+        width: 60%;
+        color: rgb(117, 117, 117);
+    }
+    
+    .formulairebutton {
+        background-color: #d10303;
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        color: white;
+        width: 50%;
+    }
+
+    .formulaireback {
+        color:#d10303;
+    }
+
+    /***************** Paiement Final  *******************/
+
+    .finaldiv1 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .finaltextbox {
+        background-color: rgb(30, 30, 30);
+        border-style: solid;
+        height: 30px;
+        width: 80%;
+    }
+
+    .finalselect {
+        background-color: rgb(30, 30, 30);
+        width: 39%;
+        height: 30px;
+        
+    }
+
+    .finaltitre {
+        text-align: center;
+    }
+
+    .finaldiv2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        gap: 15px;
+    }
+
+    .finalcenter {
+        text-align: center;
+    }
+
+    .finalbutton {
+        height: 30px;
+        width: 60%;
+        background-color:#d10303;
+        color: white;
+        border:none;
+        border-radius: 5px;
+        
+    }
 
     /************************* Footer ******************************/
 
     footer {
        background-color: rgb(18, 18, 18);
+       text-align: center;
     }
 
+    
+    .join-us {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        
+        
+    }
+
+    
 }
